@@ -1,17 +1,15 @@
+from dotenv import load_dotenv
+import os
+import jwt
+import time
 from flask import Blueprint, render_template
-try: 
-  import key
-except:
- from app import key
 dash_bp = Blueprint("dash_bp", __name__)
 
 # You'll need to install PyJWT via pip 'pip install PyJWT' or your project packages file
 
-import jwt
-import time
-METABASE_SITE_URL = key.METABASE_SITE_URL
-METABASE_SECRET_KEY = key.METABASE_SECRET_KEY
-
+load_dotenv()
+METABASE_SITE_URL = "http://predsalaryappmetabase.herokuapp.com"
+METABASE_SECRET_KEY = os.getenv('METABASE_SECRET_KEY')
 
 payload = {
   "resource": {"dashboard": 2},

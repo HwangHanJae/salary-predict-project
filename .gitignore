@@ -4,3 +4,4 @@
 key.py
 dbapi.py
 graph.db
+/app/views/.env
