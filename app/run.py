@@ -15,5 +15,5 @@ def create_app():
   app.register_blueprint(dash_bp)
   return app
 
-app = create_app()
-app.run(debug=True)
+# app = create_app()
+# app.run(debug=True)
