@@ -2,4 +2,5 @@
 /.ipynb_checkpoints
 /.pytest_cache
 key.py
+dbapi.py
 graph.db
