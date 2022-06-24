@@ -10,11 +10,11 @@ def create_app():
     from app.views.index import index_bp
     from app.views.result import result_bp
     from app.views.dashboard import dash_bp
-    
+
   app.register_blueprint(index_bp)
   app.register_blueprint(result_bp)
   app.register_blueprint(dash_bp)
   return app
 
-app = create_app()
-app.run(debug=True)
+# app = create_app()
+# app.run(debug=True)
