@@ -21,3 +21,4 @@ Werkzeug==2.1.2
 wincertstore==0.2
 zipp==3.8.0
 PyJWT==2.4.0
+python-dotenv==0.20.0
