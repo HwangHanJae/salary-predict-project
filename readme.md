@@ -1,6 +1,7 @@
 # 연봉예측기
 ## [서비스 링크](https://predsalaryapp.herokuapp.com/)
-## 서비스 소개
+## 서비스 소개  
+사용자의 정보를 입력하면 연봉을 예측해주는 서비스입니다.
 ![image](https://user-images.githubusercontent.com/60374463/175864701-3fce3b2a-b9b7-4e1c-98d5-fd1270c42064.png)
 ## 대시보드가 화면에 출력되지 않을 때
 ### 저는 **크롬 브라우저**를 사용하고 있습니다.  
