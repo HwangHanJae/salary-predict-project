@@ -13,3 +13,11 @@
 - elephantsql에 저장되어 있는 데이터를 대시보드를 만드는데 사용하였습니다.
 - 생성된 대시보드를 flask에 임베딩하였습니다.
 - 완성된 웹 사이트를 heroku로 배포하였습니다.
+
+## 서비스 소개
+![image](https://user-images.githubusercontent.com/60374463/228722076-be8b0ac9-48c7-4a44-b00b-996e1e2a7426.png)
+산업 및 업종, 학력, 경력, 근무형태를 선택 후 제출 버튼을 클릭합니다.
+![image](https://user-images.githubusercontent.com/60374463/228722373-0e446a79-c68d-4807-a938-aba4781b98e4.png)
+모델이 입력값에 대해 연봉을 예측하여 반환합니다.
+![image](https://user-images.githubusercontent.com/60374463/228722709-41787d53-4507-4882-b925-c672089c5afa.png)
+데이터 분석에 활용한 대시보드의 모습입니다.
