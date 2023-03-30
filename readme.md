@@ -12,7 +12,7 @@
   - 생성된 모델은 피클링으로 복호화 후 다시 부호화하여 flask에 넘겼습니다.
 - 데이터 분석에 활용한 데이터는 sqlite에 저장하였습니다. 
 - sqlite의 데이터를 클라우드 서비스인 elephantsql에 데이터를 이전하였습니다.
-  - [sqlite3_to_elephany.py](sqlite3_to_elephany.py)
+  - [sqlite3_to_elephany.py](sqlite3_to_elephan.py)
 - elephantsql에 저장되어 있는 데이터를 대시보드를 만드는데 사용하였습니다.
 - 생성된 대시보드를 flask에 임베딩하였습니다.
 - 완성된 웹 사이트를 heroku로 배포하였습니다.
