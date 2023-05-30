@@ -11,7 +11,7 @@
 - 수집한 데이터는 postgresql에 저장하였습니다.
 - jypyter notebook에서 데이터를 분석 및 연봉예측 모델링을 했습니다.
   - [eda.ipynb](eda.ipynb)
-  - 생성된 모델은 피클링으로 복호화 후 다시 부호화하여 flask에 넘겼습니다.
+  - 생성된 모델은 피클링으로 부호화 후 다시 복호화하여 flask에 넘겼습니다.
 - 데이터 분석에 활용한 데이터는 sqlite에 저장하였습니다. 
 - sqlite의 데이터를 클라우드 서비스인 elephantsql에 데이터를 이전하였습니다.
   - [sqlite3_to_elephant.py](sqlite3_to_elephant.py)
